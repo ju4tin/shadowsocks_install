@@ -1,5 +1,9 @@
 # Auto install Shadowsocks Server
 
+>wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh
+>chmod +x shadowsocks.sh
+>./shadowsocks.sh 2>&1 | tee shadowsocks.log
+
 ## shadowsocks.sh
 
 > Description: Auto Install Shadowsocks(Python) for CentOS/Redhat/Fedora/Debian/Ubuntu
@@ -7,6 +11,7 @@
 > Intro: https://teddysun.com/342.html
 
 ## shadowsocks-libev.sh
+
 
 > Description: Auto Install Shadowsocks(libev) for CentOS/Redhat/Fedora
 > 
